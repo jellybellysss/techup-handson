@@ -1,0 +1,23 @@
+/* Header of website, do not touch. CMD+/ is the shortcut*/
+/* h1 {
+    color: red;
+    background-color: yellow;
+
+    text-align: center;
+    border: 10px black solid; 
+    border-radius: 50px;
+
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}*/
+
+h1{
+    color: red;
+}
+.title{ 
+    background-color: gray;
+}
+#important{
+    color: yellow;
+}
