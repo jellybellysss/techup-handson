@@ -3,12 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Craft Beer App</title> 
     <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+        footer {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Custom Untappd-like styling */
+        header {
+            background-color: #3a3a3a;
+            color: #fff;
+            box-shadow: none;
+        }
+        section {
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="title">Welcome to my blog</h1>
-    <h3 class="title" id="important">Written by TT</h3>
-    <h3>Date: 10 May 2024</h3>
+    <header>
+        <h1>Craft Beer App</h1>
+    </header>
+    <main>
+        <section id="beer-discovery">
+            <h2>Discover Craft Beers</h2>
+            <!-- Display list of craft beers here -->
+        </section>
+        <section id="beer-details">
+            <h2>Beer Details</h2>
+            <!-- Display details of selected beer here -->
+        </section>
+        <section id="user-reviews">
+            <h2>User Reviews</h2>
+            <!-- Display user reviews for selected beer here -->
+        </section>
+        <section id="wishlist">
+            <h2>Wishlist</h2>
+            <!-- Display user's wishlist of beers here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Craft Beer App</p>
+    </footer>
+    <button onclick="sayHello()"> This is a button</button>
 </body>
 </html>
