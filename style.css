@@ -12,12 +12,15 @@
     padding-bottom: 20px;
 }*/
 
-h1{
+
+h1 {
     color: red;
 }
-.title{ 
+
+.title {
     background-color: gray;
 }
-#important{
+
+#important {
     color: yellow;
 }
